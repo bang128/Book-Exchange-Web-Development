@@ -1,0 +1,311 @@
+body { 
+    background-color: #F0FFF0;
+    width:1435px;
+    height: 700px;
+    margin:0 auto;
+}
+h1, h2, h3, h4 {
+    font-family: 'Lucida Sans'; 
+    color: black; 
+    text-align: center; 
+}
+h1 {font-size: 100px; margin-top: auto;}
+
+h2 {font-size: 65px; margin-top: 10px;}
+
+h3 {font-size: 60px; }
+
+h4 {font-size: 40px; margin-top: 30px; margin-left: 40px;}
+
+p {
+    font-family:'Lucida Sans'; 
+    color: black; 
+    font-size: 22px;
+}
+
+hr {border: 0.5px solid black;}
+
+.error {margin-left: 10px; color: orangered; font-size: 18px;}
+
+
+button {
+    text-align: center;
+    background-color: #228B22;
+    border: none;
+    color: #FFFAF0;
+    border-radius: 10px;
+    display: block;
+}
+button:hover{
+    background-color: #006400;
+}
+
+.img_back, .img_personal_page {width: 45px; height: 45px;}
+
+.img_logout {width: 45px; height: 40px;}
+
+.img_forbook {width: 36px; height: 36px;}
+
+.btn_back, .btn_logout, .btn_personal_page, .btn_edit, .btn_delete {
+    margin-top: 0px;
+    background-color: transparent;
+}
+.btn_back {float: left; margin-left: auto; margin-top: 15px;}
+.btn_logout, .btn_personal_page {float: right; margin-right: auto;}
+.btn_delete, .btn_edit {
+    float: right; 
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.btn_home, .btn_add, .btn_next, .btn_checkout, .btn_search{
+    width: 100px;
+    height: 35px;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2px;
+}
+
+label {
+    font-family: 'Lucida Sans'; 
+    color: black; 
+    font-size: 22px; 
+}
+
+input {
+    font-family: 'Lucida Sans'; 
+    color: black; 
+    font-size: 22px; 
+    padding-left: 5px;
+    background-color: #FFFAF0;
+    margin-top: 10px;
+    outline: none;
+}
+
+
+select {
+    font-family: 'Lucida Sans'; 
+    font-size: 22px;
+    background-color: #FFFAF0;
+    margin-left: 30px;
+}
+
+/* Login */
+.p_signup {text-align: center;}
+.p_forgot {font-size: 18px; margin-top: 15px;}
+.p_forgot:hover {text-decoration: underline;}
+.signup:hover {text-decoration: underline;}
+.signup {color: red;}
+.div_login {margin-top: 30px; width: 90%;}
+.div_login label {margin-top: 50px; display:inline-block;}
+.div_login label, .div_login input, .p_forgot {margin-left: 300px;}
+
+
+.btn_login {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+/* Home */
+.h3_home {margin-top: 150px;}
+.btn_add_book, .btn_search_book {
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn_search_book {margin-top: 30px;}
+
+/* Personal Page */
+.img_avt {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h4_username {
+    margin-left: 0px; 
+    margin-top:20px; 
+    margin-bottom:0px;
+}
+.p_email {
+    text-align: center; 
+    margin-top: 5px;
+}
+.div_book_list {
+    background-color: #FFFAF0; 
+    width: 70%;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.div_book_list p {
+    margin-left: 40px;
+    font-size: 28px;
+}
+.div_book {
+    background-color: #F0FFF0;
+    height: 50px;
+    width: 700px;
+    display: table; 
+    padding-left: 40px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+.div_book p {
+    font-size: 24px;
+    vertical-align: middle;
+    display: table-cell;
+    
+}
+
+/* Adding */
+.div_add_name, .div_checkout, .div_search {
+    overflow: hidden;
+    margin-top: auto;
+    width: 90%;
+    padding-left: 3px;
+}
+.div_add_name { height:100px;}
+
+.div_2 {width: 90%; overflow: hidden;}
+.div_2 label, .div_2 input {margin-bottom: 30px;}
+.div_2_left {float: left; padding-left: 3px;width: 45%;}
+.div_2_right {float: right; padding-right: 3px; width: 45%;}
+.input_number {width: 560px;}
+
+.btn_add {margin-top: 50px;}
+.btn_upload{
+    font-family: 'Lucida Sans'; 
+    font-size: 22px; 
+    padding-left: 0px;
+    background-color: #FFFAF0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 570px;
+}
+.btn_upload::file-selector-button {
+    text-align: center;
+    background-color: #228B22;
+    border: none;
+    color: #FFFAF0;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.btn_upload::file-selector-button:hover {
+    background-color: #006400;
+}
+
+ /* Searching */
+.btn_search {margin-top: 8px; margin-left: 30px;}
+.div_searching {
+    display: flex; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 90%;
+    margin-top: 50px;
+    }
+
+.div_3_book_left,  .div_3_book_middle,  .div_3_book_right {
+    float: left; 
+    width: 300px;
+    margin-top: 20px;
+}
+
+.div_3_book_middle,  .div_3_book_right {margin-left: 30px;}
+
+.btn_rent, .btn_buy {
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.book_img {height: 190px; margin-top: 15px;}
+.div_sort {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+/* Renting */
+.div_rent {
+    margin-top: 80px;
+    width: 90%;
+}
+
+.div_rent label {margin-top: 300px; margin-left: 420px;}
+.div_rent input {margin-left: 50px; width: 360px;}
+.btn_next {margin-top: 240px;}
+.h3_rent {margin-top: 40px;}
+
+
+/* Checkout */
+.btn_checkout {width: 130px;}
+.div_3 {overflow: hidden; padding-left: 3px;}
+.div_3_left, .div_3_middle, .div_3_right {float: left; width: 300px; margin-top: 30px;}
+.div_3_middle, .div_3_right {margin-left: 192px; }
+
+.hr_dashed {
+    border: 1px dashed black; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px; 
+    width: 90%;
+}
+
+.hr_solid {border: 0.5px solid black;}
+
+.div_2_left_payment {
+    float: left;
+    width: 70%; 
+    margin-left: 3px;
+}
+.div_2_right_payment {
+    float: right; 
+    width: 25%; 
+    margin-right: 3px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FFE4B5;
+}
+.div_2_sub {width: 100%; overflow: hidden;}
+.div_2_sub_left, .div_2_sub_right {float: left; width: 295px;}
+.div_2_sub_right {margin-left: 112px;}
+
+.btn_checkout {margin-top: 50px;}
+.div_checkout {padding-bottom: 3px;}
+
+
+
+/* Confirmed */
+.h1_confirmed {margin-top: 70px;}
+.img_checkmark {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn_home {margin-top: 90px;}
+
